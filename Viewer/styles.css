@@ -1,32 +1,67 @@
+:root {
+    --primary: #00A882;
+    --secondary: #256E5D;
+    --tertiary: #253531;
+    --text-color: grey;
+    --dark-color:#171818;
+}
 .TabSelectors {
     text-decoration: none;
     list-style: none;
-    margin-top: 30vh;
+    margin-top: 25vh;
     font-size: 15pt;
-    margin-left: 0px;
+    left: 0px;
     position: absolute;
+    width: 200px;
 }
 .TabDiv {
     height: 30px;
     vertical-align: middle;
     display: table-row;
-    
+    margin: 25px 0px;    
 }
 .TabContent {
     display: table-cell;
     width: 200px;
     padding: 1px;
     height: 15px;
-    background-color: grey;
+    background-color: var(--tertiary);
     border-radius: 1px 15px 15px 1px;
+    border-width: 5px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
 }
 .TabContent:hover {
-    background-color: darkgray;
+    background-color: var(--dark-color);
+    color: white;
+    
 }
-.TabDiv li {
+.TabDiv p {
     vertical-align: middle;
+    margin-left: 10px;
 }
 .SelectorDiv {
     display: table;
-    border-spacing: 10px;
+    position: absolute;
+    left: 0;
+    border-spacing: 0 20px;
+    border-collapse: separate;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary);
+}
+.window {
+    position: absolute;
+    align-self: right;
+    background-color: white;
+    width: 75vw;
+    right: 10vw;
+    height: 85vh;
+    border: black 5px solid;
+}
+.window h1 {
+    text-align: center;
+    font-size: 50px;
 }
