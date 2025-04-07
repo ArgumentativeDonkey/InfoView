@@ -5,14 +5,22 @@
     --text-color: grey;
     --dark-color:#171818;
 }
+.presentationTitle {
+    margin-left: 2vw;
+}
 .TabSelectors {
     text-decoration: none;
     list-style: none;
-    margin-top: 25vh;
+    margin-top: 12vh;
     font-size: 15pt;
     left: 0px;
     position: absolute;
     width: 200px;
+}
+.windowtext {
+    margin-left: 2vw;
+    font-size: 18px;
+
 }
 .TabDiv {
     height: 30px;

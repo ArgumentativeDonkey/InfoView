@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <title>InfoView Presentation Viewer</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="tabSelect.js"></script>
 </head>
 
-<body>
-    <h1 class="presentationTitle">Title Here</h1>
+<body onload="Start()">
+    <h1 class="presentationTitle"><u>Alpha-1 Antitrypsin</u></h1>
     <div class="SelectorDiv">
         <div class="TabSelectors">
             <div class="TabDiv">
                 <div class="TabContent">
-                        <p>Tab 1</p>
+                        <p>What is AATD?</p>
                 </div>
             </div>
             <div class="TabDiv">
@@ -40,8 +41,8 @@
         </div>
     </div>
     <div class="window">
-        <h1>Tab Title</h1>
-        <p>Tab Text</p>
+        <h1 id="windowtitle">Uh-Oh</h1>
+        <p class="windowtext" id="windowtext" >Javascript failed to load. Please try enabling Javascript in your browser.</p>
     </div>
 </body>
 
